@@ -1,0 +1,63 @@
+.applications_content {
+    margin: 50px 8% 50px 8%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.applications_content_general {
+    margin: 50px 0 50px 8%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    row-gap: 15px;
+    column-gap: 10px;
+    width: fit-content;
+    min-width: 74vw;
+    overflow-y: hidden;
+}
+
+.application_content_details_container {
+    margin: 50px 0 50px 4.2%;
+    width: 48%;
+    height: 83%;
+    background-color: white;
+    position: relative;
+    left: 377px;
+    top: 94px;
+    overflow-y: scroll;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.application_content_details_section {
+    flex: 1;
+    max-height: 86%;
+    height: 86%;
+    min-height: 86%;
+    background-color: #E5F4FE;
+    position: relative;
+    top: 0;
+    border-radius: 5px;
+    margin: 50px 2% 50px 2%;
+}
+
+.applications_content_container {
+    position: relative;
+    left: 0px;
+    width: 33%;
+    min-height: 100%;
+    height: fit-content;
+    /* background-color: blue; */
+    background-color: #E5F4FE;
+    overflow-x: inherit;
+    scroll-behavior: smooth;
+}
+
+.warning {
+    margin-left: 5.5%;
+    width: 120%;
+}

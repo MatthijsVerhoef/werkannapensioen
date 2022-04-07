@@ -1,0 +1,206 @@
+.background {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    background-color: #E5F4FE;
+    z-index: 98;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.background>h1 {
+    margin: 140px auto 0 auto;
+    color: #2D88FF;
+    font-size: 2.8em;
+}
+
+.form_container:nth-child(2) {
+    margin-top: 4%;
+}
+
+.form_container {
+    width: 650px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: white;
+    margin: 2% auto 0 auto;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.form_container>p {
+    margin: 8px 0 1% 0;
+}
+
+.form_container>span {
+    margin: 4% 0 0 0;
+    font-weight: bold;
+}
+
+.input_index {
+    margin-top: 2%;
+    width: 100%;
+    height: fit-content;
+    border-radius: 2px;
+    border: 1.5px solid #B3B3B3;
+    background-color: white;
+    display: flex;
+}
+
+.indicator {
+    width: 50px;
+    height: 46px;
+    background-color: white;
+    border-radius: 2px 0 0 2px;
+    border-right: 1.5px solid #B3B3B3;
+    display: flex;
+}
+
+.indicator>p {
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.input_index>input {
+    height: 46px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 2px;
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.form_container>input,
+.formInput {
+    margin-top: 2%;
+    height: 46px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1.5px solid #B3B3B3;
+    width: 100;
+}
+
+.form_container>select {
+    height: 46px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1.5px solid #B3B3B3;
+    margin-top: 2%;
+}
+
+.text_area {
+    margin-top: 2%;
+    min-height: 400px;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1.5px solid #B3B3B3;
+    resize: none;
+    font-weight: normal !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text_area[contenteditable]:empty::before {
+    content: "Beschrijving";
+    color: #B3B3B3;
+    font-weight: normal;
+}
+
+::placeholder {
+    color: #B3B3B3;
+}
+
+.form_button {
+    margin: 6% auto 0 auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #0751B2;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.form_collapsed {
+    width: 650px;
+    height: 80px;
+    background-color: white;
+    margin: 2% auto 0 auto;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1.5% 0 1.5%;
+}
+
+.form_collapsed:nth-child(2) {
+    margin-top: 4%;
+}
+
+.form_collapsed>h2 {
+    margin: auto 0 auto 0;
+    color: #B3B3B3;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.step_completed {
+    margin: auto 0 auto 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.devider {
+    display: flex;
+    margin-top: 30px;
+}
+
+.vertical_line {
+    width: 44%;
+    height: 1.8px;
+    background-color: #B3B3B3;
+    margin: auto 0 auto 0;
+}
+
+.devider_text {
+    font-weight: bold;
+    margin: 0 3% 0 3%;
+    color: #B3B3B3;
+    font-size: 1.1em;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    color: darkgray;
+}
+
+.place_post_confirm {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}

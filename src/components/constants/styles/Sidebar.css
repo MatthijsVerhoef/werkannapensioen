@@ -1,0 +1,254 @@
+.sideBar {
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 90;
+    border-right: 2px solid #f1f1f1;
+    background-color: white;
+}
+
+.logoLink {
+    width: 100%;
+    display: flex;
+}
+
+.webLogo {
+    width: 52%;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 60px auto 0 auto;
+    cursor: pointer;
+}
+
+.sideBarAvatar {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 58px;
+    min-height: 58px;
+    border: 3px solid #fff;
+}
+
+.sideBarAvatarActive {
+    border: 3px solid #2D88FF;
+    width: 58px;
+    min-height: 58px;
+    border-radius: 40px;
+}
+
+.sideAvatar {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0 auto 0 auto;
+}
+
+.sideAvatarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarBtn {
+    height: 50px;
+    min-width: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 50px auto 0 auto;
+    font-size: 16px;
+    color: #afafaf;
+    font-weight: normal;
+    list-style: none;
+    text-align: center;
+}
+
+.sideBarBtnActive {
+    color: #2D88FF;
+    cursor: pointer;
+    background-color: white;
+    margin: 70px auto 0 auto;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.sideBarIcon {
+    margin: 0 auto 0 auto;
+    transition: all 0.2s ease;
+}
+
+.sideBarIcon:hover {
+    color: #2D88FF;
+    transition: all 0.5s ease;
+}
+
+.sideBarAvatar {
+    margin: 0 auto 0 auto;
+}
+
+.sideBarContent {
+    margin: 0 auto 0 auto;
+    height: fit-content;
+    max-height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fullMenu {
+    position: fixed;
+    left: 100px;
+    top: 0px;
+    width: 94vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 91;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid lightgray;
+}
+
+.fullMenu>h3 {
+    margin: 120px auto 0 auto;
+    font-weight: lighter;
+    font-size: 52px;
+}
+
+.menuBtn,
+.menuBtnBottom {
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    margin: 50px 0 0 20px;
+    font-size: 16px;
+}
+
+.menuBtnBottom {
+    border-bottom: none;
+}
+
+.fullMenuList {
+    list-style: none;
+    margin: 50px auto 0 auto;
+    display: flex;
+}
+
+.logOutBtn {
+    color: #F23A5F;
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+}
+
+.logOutBtn:hover {
+    font-weight: bold;
+}
+
+.menuLoginBtn {
+    width: 180px;
+    height: 35px;
+    border: 3px solid #2D88FF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+    z-index: 99;
+    background-color: white;
+    color: #2D88FF;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+    margin-right: 50px;
+}
+
+.menuSignUpBtn {
+    width: 180px;
+    height: 35px;
+    background-color: #2D88FF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.menuSignUpBtn:hover {
+    background-color: white;
+    border: 4px solid #2D88FF;
+    transition: 0.15s;
+    color: #2D88FF;
+}
+
+.menuLoginBtn:hover {
+    background-color: #2D88FF;
+    color: white;
+    transition: 0.15s;
+}
+
+.actionBtnContainer {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 100px auto 0 auto;
+}
+
+.actionBtnContainer>u {
+    margin: 0 100px 0 0;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.actionBtnContainer>u:hover {
+    font-weight: bold;
+}
+
+.actionBtns {
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+}
+
+.lists {
+    display: flex;
+    margin: 30px auto 0 auto;
+}
+
+.listItems {
+    list-style-type: none;
+}
+
+.navItems {
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    transition: 0.1s;
+}
+
+.navItems:hover {
+    font-weight: normal;
+    color: #2D88FF;
+    transition: 0.1s;
+}

@@ -10,11 +10,11 @@ const ChatsScreen = ({ currentUser, chat, messages }) => {
     const [data, setData] = useState()
     const [input, setInput] = useState("")
 
-    const sendMessage = () => {
-      e.preventDefault()
+    // const sendMessage = (e) => {
+    //   e.preventDefault()
 
-      currentUser && db.collection('users').doc(currentUser.uid).set
-    }
+    //   currentUser && db.collection('users').doc(currentUser.uid).set
+    // }
 
     useEffect(() => {
         const ref = id && db.collection("chats").doc(id);

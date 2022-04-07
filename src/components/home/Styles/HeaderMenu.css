@@ -1,0 +1,130 @@
+.optionsContainer {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;
+    top: 9%;
+    left: 79%;
+    box-sizing: border-box;
+    padding: 15px;
+    z-index: 99;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+@keyframes slide_in_top {
+    0% {
+        top: -15%
+    }
+    100% {
+        top: 10%
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0.6
+    }
+}
+
+.headerBlur {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 99;
+    animation: appear 0.15s linear;
+}
+
+.optionsMenu {
+    width: 260px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    right: 2%;
+    top: 10%;
+    animation: slide_in_top 0.15s linear;
+    box-sizing: border-box;
+    padding: 15px 15px 30px 15px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.userInfo>p:nth-child(1) {
+    margin: 30px auto 0 auto;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #2D88FF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2D88FF;
+}
+
+.home_menu_avatar {
+    margin: 30px auto 0 auto;
+    width: 70px !important;
+    height: 70px !important;
+    border: 3px solid #2D88FF;
+    border-radius: 40px;
+}
+
+.userInfo>p:nth-child(2) {
+    margin: 12px auto 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.topBorder {
+    width: 100%;
+    height: 1.5px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.infoWindowBtn {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1.5px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.infoWindowBtn:hover {
+    background-color: #f1f1f1;
+}
+
+.userInfo>p:nth-child(7) {
+    color: #F23A5F;
+    margin: 18px auto 0 auto;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.userInfo>p:nth-child(7):hover {
+    font-weight: bold;
+}

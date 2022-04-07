@@ -1,0 +1,234 @@
+.home_container {
+    position: absolute;
+    width: 100vw;
+    max-width: 100vw;
+    height: fit-content;
+    background-color: #E5F4FE;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 91;
+    box-sizing: border-box;
+    padding: 0 8% 0 9%;
+}
+
+.home_container>h1 {
+    color: #000000;
+    margin-top: 9%;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.home_container>h1>b {
+    color: #2D88FF;
+}
+
+.home_container>p {
+    max-width: 88%;
+    margin: 0 0 0 3px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.content {
+    width: 100%;
+    height: fit-content;
+    background-color: #E5F4FE;
+    margin-bottom: 90px;
+}
+
+.cardBig {
+    position: relative;
+    width: 196%;
+    height: 380px;
+    color: white;
+    font-size: 2em;
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.cardSmall {
+    position: relative;
+    width: 93%;
+    height: 520px;
+    border-radius: 18px;
+    color: white;
+    font-size: 2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.grid_devider {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+}
+
+.grid_span_2 {
+    grid-column: span 2;
+}
+
+.grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    gap: 10px;
+    row-gap: 35px;
+    background-color: #E5F4FE;
+    margin-top: 50px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.a {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../../../data/images/grid_img1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a>p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.a>h3 {
+    color: black;
+    margin-top: 10px;
+    font-size: 30px;
+    max-width: 74%;
+}
+
+.heroNavBtn {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heroNavBtnWhite {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.b {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../../../data/images/grid_img4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: none;
+}
+
+.b>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.b>h3 {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    max-width: 86%;
+}
+
+.c {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../../../data/images/grid_img5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c>p,
+.d>p,
+.e>p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.c>h3,
+.d>h3,
+.e>h3 {
+    color: black;
+    margin-top: 10px;
+    font-size: 30px;
+    max-width: 92%;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    gap: 10px;
+    row-gap: 30px;
+    background-color: #E5F4FE;
+    margin-top: 50px;
+    margin-left: 1%;
+}
+
+.d {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../../../data/images/grid_img2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../../../data/images/grid_img3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../../../data/images/grid_img6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f>h3 {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    max-width: 50%;
+}

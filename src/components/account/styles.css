@@ -1,0 +1,431 @@
+ .account_information_container {
+     width: 842px;
+     min-height: 900px;
+     height: fit-content;
+     background-color: white;
+     border-radius: 10px;
+     position: relative;
+     margin: 0 0 100px 25px;
+     top: 145px;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+ }
+ 
+ .account_content_container {
+     background-color: #E5F4FE;
+     width: 100%;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+ 
+ .user_detail_edit_background {
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     box-sizing: border-box;
+     padding: 6px 8px 6px 8px;
+     cursor: pointer;
+     border-radius: 2px;
+     background-color: #2D88FF;
+     color: white;
+     border: none;
+     transition: 0.2s ease;
+     font-size: 14px;
+ }
+ 
+ .user_detail_tag_add {
+     width: fit-content;
+     min-width: fit-content;
+     height: fit-content;
+     box-sizing: border-box;
+     padding: 4px 10px 4px 10px;
+     font-size: 14px;
+     border-radius: 20px;
+     margin: 21px 12px 0 0;
+     color: white;
+     background-color: #2D88FF;
+     display: flex;
+     align-items: center;
+     font-weight: 600;
+     cursor: pointer;
+     transition: 0.2s ease;
+ }
+ 
+ .user_detail_tag_item_edit {
+     width: fit-content;
+     min-width: fit-content;
+     height: fit-content;
+     box-sizing: border-box;
+     padding: 2px 6px 2px 6px;
+     border: 2px solid #2D88FF;
+     font-size: 14px;
+     border-radius: 5px;
+     margin: 22px 12px 0 0;
+     color: #2D88FF;
+     font-weight: 600;
+     cursor: pointer;
+ }
+ 
+ .user_detail_tag_item_input {
+     width: fit-content;
+     max-width: 20px;
+     min-width: fit-content;
+     height: fit-content;
+     box-sizing: border-box;
+     padding: 3px 6px 3px 6px;
+     border: 2px solid #2D88FF;
+     font-size: 14px;
+     border-radius: 5px;
+     margin: 22px 12px 0 0;
+     color: #2D88FF;
+     outline: none;
+ }
+ 
+ .user_detail_tag_cancel {
+     margin: 24px 0 0 0;
+     font-weight: 600;
+     text-decoration: underline;
+     cursor: pointer;
+     border-left: 2px solid black;
+     padding-left: 12px;
+     color: #F23A5F;
+ }
+ 
+ .user_detail_tag_add:hover,
+ .user_detail_edit_background:hover {
+     background-color: #0751B2;
+     transition: 0.2s ease;
+ }
+ 
+ .account_extras {
+     width: fit-content;
+     height: 100vh;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     background-color: #E5F4FE;
+     margin-left: 3.2%;
+ }
+ 
+ .account_alert_container {
+     width: 310px;
+     min-height: 300px;
+     height: fit-content;
+     background-color: white;
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+     margin: 50px auto 0 auto;
+     border-radius: 5px;
+     box-sizing: border-box;
+     padding: 18px;
+ }
+ 
+ .account_alert_container>b,
+ .video_alerts>b,
+ .review_container>b {
+     font-size: 16px;
+ }
+ 
+ .account_alert_container>p {
+     font-size: 14px;
+     color: #707070;
+     margin-top: 8px;
+ }
+ 
+ .alert_select {
+     margin-top: 20px;
+ }
+ 
+ .enable_alerts {
+     margin-top: 25px;
+     padding: 10px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: #2D88FF;
+     color: white;
+     cursor: pointer;
+ }
+ 
+ .video_alerts {
+     width: 310px;
+     min-height: fit-content;
+     height: fit-content;
+     background-color: white;
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+     margin: 30px auto 0 auto;
+     border-radius: 5px;
+     box-sizing: border-box;
+     padding: 18px 18px 30px 18px;
+ }
+ 
+ .account_header {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .profile_title {
+     font-size: 26px;
+     font-weight: 600;
+     margin: 60px 0 0 4%;
+     position: fixed;
+ }
+ 
+ .account_menu {
+     display: flex;
+     flex-direction: column;
+     width: fit-content;
+     height: fit-content;
+     margin: 150px 0 0 4%;
+     position: fixed;
+ }
+ 
+ .account_menu>p {
+     font-weight: bold;
+     font-size: 18px;
+     margin: 0;
+ }
+ 
+ .account_menu_item {
+     display: flex;
+     align-items: center;
+     margin: 30px 0 0 30px;
+     font-size: 18px;
+     font-weight: 600;
+     cursor: pointer;
+     color: #707070;
+ }
+ 
+ .account_menu_item_active {
+     color: #2D88FF;
+     display: flex;
+     align-items: center;
+     margin: 30px 0 0 30px;
+     font-size: 18px;
+     font-weight: 600;
+     cursor: pointer;
+ }
+ 
+ .account_input {
+     width: 30%;
+     height: 40px;
+     background-color: white;
+     margin: 50px 6% 0 0;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     box-sizing: border-box;
+     padding-left: 3px;
+ }
+ 
+ .account_input>input {
+     flex: 1;
+     box-sizing: border-box;
+     padding-left: 10px;
+     height: 100%;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: white;
+ }
+ 
+ .Indicator {
+     position: absolute;
+     background-color: #2D88FF;
+     border-radius: 2px;
+     width: 4px;
+     height: 36px;
+     left: 2px;
+ }
+ 
+ .account_img {
+     width: 100%;
+     height: 100%;
+     border-radius: 80px;
+ }
+ 
+ .download {
+     width: 82%;
+     height: 34px;
+     margin: 32px 0 0 10%;
+     border-radius: 5px;
+     background-color: #0751B2;
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     box-sizing: border-box;
+     padding: 20px;
+     cursor: pointer;
+ }
+ 
+ .user_detail_container {
+     width: 100%;
+     height: 100%;
+     background-color: white;
+     border-radius: 10px;
+     position: relative;
+     padding-bottom: 10px;
+ }
+ 
+ .user_detail_stock_image {
+     width: 100%;
+     height: 150px;
+     background-color: #2D88FF;
+     border-radius: 10px 10px 0 0;
+     background-image: url('../../data/images/stockImg.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .user_detail_avatar {
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+     width: 150px;
+     height: 150px;
+     background-color: #2D88FF;
+     position: absolute;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 48px;
+     font-weight: 600;
+     top: 75px;
+     left: 35px;
+     border-radius: 100px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ .user_detail_information {
+     width: 100%;
+     height: fit-content;
+     box-sizing: border-box;
+     padding: 0 35px 0 35px;
+     background-color: white;
+ }
+ 
+ .user_detail_information>hr {
+     border: none;
+     height: 1.5px;
+     background-color: #f1f1f1;
+     margin: 30px 0 30px 0;
+ }
+ 
+ .user_detail_information>h2 {
+     margin: 100px 0 0 0;
+     font-size: 26px;
+ }
+ 
+ .user_detail_information>p {
+     margin: 5px 0 0 0;
+     font-size: 18px;
+     color: #2D88FF;
+     font-weight: 600;
+ }
+ 
+ .user_detail_action {
+     position: absolute;
+     top: 258px;
+     right: 35px;
+     width: 50px;
+     height: 50px;
+     border-radius: 5px;
+     border: 2px solid #2D88FF;
+     background-color: white;
+     cursor: pointer;
+     transition: 0.3s ease;
+ }
+ 
+ .user_detail_action:nth-child(3) {
+     right: 105px;
+ }
+ 
+ .user_detail_action:hover {
+     transition: 0.3s ease;
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .user_detail_tags_container {
+     width: 100%;
+     max-width: 100%;
+     height: fit-content;
+     background-color: white;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .user_detail_tag_item {
+     width: fit-content;
+     min-width: fit-content;
+     height: fit-content;
+     box-sizing: border-box;
+     padding: 2px 6px 2px 6px;
+     border: 2px solid #2D88FF;
+     font-size: 14px;
+     border-radius: 5px;
+     margin: 22px 12px 0 0;
+     color: #2D88FF;
+     font-weight: 600;
+ }
+ 
+ .user_detail_information_introduction {
+     width: 100%;
+     height: fit-content;
+     background-color: white;
+     padding-bottom: 15px;
+ }
+ 
+ .user_detail_information_experience>h3:nth-child(1) {
+     margin-top: 0px;
+ }
+ 
+ .user_detail_information_item {
+     display: flex;
+     width: 100%;
+     height: fit-content;
+     padding-bottom: 20px;
+     margin-top: 15px;
+ }
+ 
+ .user_detail_dot {
+     width: 10px;
+     height: 10px;
+     border: 3px solid #2D88FF;
+     border-radius: 20px;
+     margin-top: 4px;
+ }
+ 
+ .user_detail_information_item_text {
+     flex: 1;
+     background-color: white;
+     box-sizing: border-box;
+     padding-left: 20px;
+ }
+ 
+ .user_detail_information_item_text>p {
+     margin: 0;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ 
+ .user_detail_information_item_text>p:nth-child(2) {
+     color: #2D88FF;
+     font-size: 16px;
+     margin-top: 2px;
+ }
+ 
+ .user_detail_information_item_text>p:nth-child(3) {
+     color: black;
+     font-weight: normal;
+     margin-top: 15px;
+     font-size: 16px;
+ }
+ 
+ .autocomplete_container {
+     height: 40px;
+     margin-top: 10px;
+ }

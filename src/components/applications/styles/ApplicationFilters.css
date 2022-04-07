@@ -1,0 +1,62 @@
+.sidebar_input_container {
+    width: 94%;
+    height: 40px;
+    min-height: 40px;
+    margin: 30px auto 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    outline-color: #2D88FF;
+    overflow: hidden !important;
+}
+
+::placeholder {
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+.sidebar_input {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 10px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.sidebar_right>b {
+    margin-left: 3%;
+}
+
+.sidebar_input_salary {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    width: 94%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.salary_input {
+    width: 47%;
+    height: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    padding-left: 8px;
+    outline-color: #2D88FF;
+}
+
+.application_select {
+    margin: 20px auto 0 auto;
+    width: 94%;
+}

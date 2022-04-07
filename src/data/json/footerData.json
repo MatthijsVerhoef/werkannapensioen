@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "title": "Home",
+    "links": [
+        { "title": "Voor bedrijven", "to": "/voor-bedrijven" },
+        { "title": "Voor gepensioneerden", "to": "/voor-jou" },
+        { "title": "Opdracht plaatsen", "to": "/place-application" }
+    ]
+}, {
+    "id": 2,
+    "title": "Dashboard",
+    "links": [
+        { "title": "Account", "to": "/account" },
+        { "title": "Opdrachten", "to": "/applications" },
+        { "title": "Mijn opdrachten", "to": "/manage" },
+        { "title": "Berichten", "to": "/chats" }
+    ]
+}, {
+    "id": 3,
+    "title": "Werken na je pensioen",
+    "links": [
+        { "title": "Over het team", "to": "/over-ons" },
+        { "title": "Onze visie", "to": "/over-ons" }
+    ]
+}]

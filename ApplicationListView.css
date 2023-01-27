@@ -1,0 +1,41 @@
+.companyApplicationItem {
+    margin-left: 20px;
+}
+
+.companyApplicationInfo {
+    display: flex;
+    align-items: center;
+    font-weight: var(--medium);
+}
+
+.companyApplicationInfo>span {
+    margin: 0 8px;
+}
+
+.companyApplicationItem>p:nth-child(2) {
+    margin: 5px 0;
+    color: var(--primary);
+    font-size: 15px;
+}
+
+.companyApplicationItem>p:nth-child(3) {
+    color: var(--graytext);
+    margin-top: 10px;
+    font-size: 15px;
+    max-width: 76%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.companyApplicationItemContainer {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+}

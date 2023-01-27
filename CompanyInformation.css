@@ -1,0 +1,35 @@
+.companyInformationContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyInformationContainer>p {
+    font-size: 15px;
+}
+
+.companyInformationItem {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyInformationItem>b {
+    font-size: 15px;
+    font-weight: var(--semibold);
+}
+
+.companyInformationItem>p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.companyInformationKnownFor {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.companyInformationKnownFor>p {
+    margin-right: 5px;
+}

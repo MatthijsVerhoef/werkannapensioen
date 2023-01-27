@@ -1,0 +1,69 @@
+.enableAlertsInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.enableAlertsInfo>p:first-child {
+    font-weight: var(--semibold);
+    font-size: 15px;
+}
+
+.enableAlertsInfo>p:last-child {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.companyLogoContainerSmall {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.largeAlertInput {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 14px;
+    background-color: #F0F2F5;
+    height: 38px;
+    width: 36%;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: var(--tagText) !important;
+    font-size: 18px;
+}
+
+.largeAlertInput>input {
+    height: 75%;
+    border: none;
+    outline: none;
+    background-color: #F0F2F5;
+    box-sizing: border-box;
+    padding: 0 8px;
+    font-size: 14.5px;
+    flex: 1;
+}
+
+.largeAlertInput>input::placeholder {
+    color: var(--tagText);
+}
+
+.currentLocation {
+    padding: 6px !important;
+    color: var(--primary) !important;
+    font-size: 19px !important;
+}
+
+.addAlerts {
+    flex: 1;
+    height: 38px;
+    background-color: var(--primary);
+    border-radius: 50px;
+    margin-left: 10px;
+    color: var(--white);
+}

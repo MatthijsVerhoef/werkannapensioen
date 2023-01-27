@@ -1,0 +1,51 @@
+.relatedLinkItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.relatedLinkItem:nth-child(2) {
+    margin-top: 20px;
+}
+
+.relatedLinkIcon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 22px;
+}
+
+.relatedLinksText {
+    margin-left: 10px;
+}
+
+.relatedLinksText>p:nth-child(1) {
+    font-size: 14px;
+    font-weight: var(--medium);
+}
+
+.relatedLinksText>p:last-child {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #484B50;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.smallAction {
+    font-size: 13px;
+    font-weight: var(--medium);
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 6px 12px;
+    margin-left: auto;
+    border-radius: 30px;
+}
